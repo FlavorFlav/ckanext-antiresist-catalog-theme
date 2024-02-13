@@ -1,0 +1,14 @@
+# antiresist_catalog_theme-js:
+#   filter: rjsmin
+#   output: ckanext-antiresist_catalog_theme/%(version)s-antiresist_catalog_theme.js
+#   contents:
+#     - js/antiresist_catalog_theme.js
+#   extra:
+#     preload:
+#       - base/main
+
+# antiresist_catalog_theme-css:
+#   filter: cssrewrite
+#   output: ckanext-antiresist_catalog_theme/%(version)s-antiresist_catalog_theme.css
+#   contents:
+#     - css/antiresist_catalog_theme.css
