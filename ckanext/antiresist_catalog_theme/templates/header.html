@@ -1,0 +1,8 @@
+{% ckan_extends %}
+
+{% block header_site_navigation_tabs %}
+{% if current_user.is_authenticated %}
+{{ super() }}
+{% else %}
+{% endif %}
+{% endblock %}
