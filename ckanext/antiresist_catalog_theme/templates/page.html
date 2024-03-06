@@ -4,6 +4,8 @@
 {% if current_user.is_authenticated %}
 {{ super() }}
 {% else %}
-<h1 class="page-heading">Login required</h2>
-    {% endif %}
-    {% endblock %}
+<div class="module-content">
+    <div class="alert alert-warning" role="alert">Login required</div>
+</div>
+{% endif %}
+{% endblock %}
