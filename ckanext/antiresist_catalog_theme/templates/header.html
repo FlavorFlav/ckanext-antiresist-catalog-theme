@@ -6,3 +6,10 @@
 {% else %}
 {% endif %}
 {% endblock %}
+
+{% block header_site_search %}
+{% if current_user.is_authenticated %}
+{{ super() }}
+{% else %}
+{% endif %}
+{% endblock %}
